@@ -1,0 +1,6 @@
+version: '3.7'
+services:
+  liferay-redis:
+    image: redis
+    ports:
+    - 127.0.0.1:6379:6379
